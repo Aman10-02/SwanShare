@@ -1,0 +1,8 @@
+myenv
+__pycache__
+public.txt
+private_key.pem
+public_key.pem
+username.txt
+downloaded_file0
+downloaded_file1
