@@ -104,7 +104,7 @@ def detect_file_type(binary_data):
         if magic.startswith(signature):
             return file_type
 
-    return 'Unknown'
+    return 'TXT'
 
 def main_decrypt(x):
   download(x)
