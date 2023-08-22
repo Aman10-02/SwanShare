@@ -1,6 +1,4 @@
-/*--------------------------------------------------------------
-# Blockchain Services
---------------------------------------------------------------*/
+
 .blockchain-services {
   padding-top: 0px;
   padding-bottom: 15px;
@@ -28,7 +26,7 @@
 }
 
 .blockchain-services .icon i {
-  color: #16df7e;
+  color: #47b2e4;
   font-size: 36px;
 }
 
@@ -48,7 +46,7 @@
 }
 
 .blockchain-services .icon-box:hover .title a {
-  color: #16df7e;
+  color: #73c5eb;
 }
 
 .blockchain-services .description {
@@ -67,7 +65,7 @@
 .counts .counters span {
   font-size: 48px;
   display: block;
-  color: #16df7e;
+  color: #47b2e4;
   font-weight: 700;
 }
 
@@ -105,5 +103,5 @@
 
 .card .h4{
   border: 1px;
-  color: #008000;
+  color: #73c5eb;
 }

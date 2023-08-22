@@ -18,9 +18,7 @@
 
 			<div class="container">
 				<div class="alert alert-custom fade in alert-dismissable show">
-					<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-						<!-- <span aria-hidden="true">×</span> -->
-					</button>
+					
 					{{ message }}
 				</div>
 			</div>
@@ -29,28 +27,20 @@
 
 				<h3>Upload a file </h3>
 				<br><br>
-
-				<div class="form-group">
-					<label>Sender :</label>
-					<input type="text" name="sender_name" class="form-control" placeholder="Sender name" required>
-				</div>
 				
 				<div class="form-group">
 					<label>Receiver :</label>
 					<input type="text" name="receiver_name" class="form-control" placeholder="Receiver name" required>
 				</div>
 					
-				<div class="form-group">
-					<label>Enter key :</label>
-					<input type="password" name="file_key" class="form-control" placeholder="Your file key" required>
-				</div>				
-
+							
+				<br><br>
 				<br>
 				<div class="form-group file-input">
 					<input type="file" name="file" class="" required>
 				</div>
 				
-				<br>
+				<br><br><br>
 
 				<!-- <a class="btn view-chain" href="{{ url_for('connect_blockchain') }}">View chain</a> -->
 				<button type="submit" class="send-btn">Submit</button><br><br>

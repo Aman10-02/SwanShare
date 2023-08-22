@@ -166,9 +166,9 @@ async def add_file():
                 file_path = os.path.join("./uploads", filename)
                 print(file_path)
                 user_file.save(file_path)
-                # append_file_extension(user_file, file_path)
-                sender = request.form['sender_name']
-                file_key = request.form['file_key']
+                # # append_file_extension(user_file, file_path)
+                # sender = request.form['sender_name']
+                # file_key = request.form['file_key']
                     
                 try:
                     def cb(data) :
@@ -205,11 +205,11 @@ async def retrieve_file():
 
         if request.form['file_hash'] == '':
             message = 'No file hash entered.'
-        elif request.form['file_key'] == '':
-            message = 'No file key entered.'
+        # elif request.form['file_key'] == '':
+        #     message = 'No file key entered.'
         else:
             error_flag = False
-            file_key = request.form['file_key']
+            # file_key = request.form['file_key']
             file_hash = request.form['file_hash']
             try:
                 # file_path = retrieve_from_hash(file_hash, file_key)
