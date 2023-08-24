@@ -9,7 +9,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="static/img/favicon.png" rel="icon">
+  <link href="{{ url_for('static', filename='img/favicon.png') }}" rel="icon">
   <link href="static/img/apple-touch-icon.png" rel="apple-touch-icon">
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -36,7 +36,7 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo mr-auto"><a href="{{ url_for('home') }}">PelicanP2P</a></h1>
+      <h1 class="logo mr-auto"><a href="{{ url_for('home') }}">SwanShare</a></h1>
       <div>
         <h3 class="logo mr-auto text-end">{{userName}}</h3>
       </div>
