@@ -4,7 +4,7 @@
 venv:
 	python -m venv venv
 	powershell -ExecutionPolicy Bypass
-	@echo "Virtual environment created. Activate it using 'source venv/bin/activate'."
+	
 
 activate:
 	@echo "Virtual environment created. Activate it using 'venv/bin/activate'."
