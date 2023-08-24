@@ -396,7 +396,7 @@ body {
   
   #hero h1 {
     margin: 0 0 10px 0;
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 56px;
     color: #fff;
@@ -405,7 +405,7 @@ body {
   #hero h2 {
     color: rgba(255, 255, 255, 0.6);
     margin-bottom: 50px;
-    font-size: 24px;
+    font-size: 20px;
   }
   
   #hero .btn-get-started {
