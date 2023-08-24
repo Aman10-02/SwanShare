@@ -7,7 +7,7 @@ venv:
 	
 
 activate:
-	@echo "Virtual environment created. Activate it using 'venv/bin/activate'."
+	@echo "Virtual environment created. Activate it using 'venv/Scripts/activate'."
 
 install:
 	pip install -r requirements.txt
