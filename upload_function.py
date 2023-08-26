@@ -56,9 +56,6 @@ def decrypt_message2(aes_key, ciphertext):
     return decrypted_plaintext
 
 def base64_public_key(base64_encoded):
-    # from cryptography.hazmat.backends import default_backend
-    # from cryptography.hazmat.primitives import serialization
-    # import base64
     base64_encoded=base64_encoded.encode()
     decoded_data = base64.b64decode(base64_encoded)
     public_key = serialization.load_pem_public_key(decoded_data, backend=default_backend())
