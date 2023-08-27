@@ -1,5 +1,5 @@
 
-```markdown
+
 # Python Project Makefile with Virtual Environment
 
 This repository provides a Makefile for managing a Python project using pip and virtual environments.
@@ -21,7 +21,7 @@ These instructions will help you set up and use the Makefile for your Python pro
 ### Creating a Virtual Environment
 
 To set up a virtual environment, run the following command:
-```
+
 ```bash
 make venv
 ```
