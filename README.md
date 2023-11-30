@@ -2,7 +2,7 @@
 
 # Python Project Makefile with Virtual Environment
 
-This repository provides a Makefile for managing a Python project using pip and virtual environments.
+This repository provides a Makefile for managing a Python project using pip and virtual environments. Please find the working and setup guidelines in this video [Click Here](https://www.youtube.com/watch?v=cjy_VOyRcQk&t=700s)
 
 ## Getting Started
 
